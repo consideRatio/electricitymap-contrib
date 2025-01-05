@@ -62,6 +62,11 @@ def use_proxy(country_code: str):
     and other proxy methods (like cloud run datacenter proxies) do not work. Note that this
     proxy service is not free and is charged per GB.
 
+    If you create an account with webshare.io to develop parsers for this
+    project, you need to pay for the residential proxy type, as that includes
+    most countries. As a practical example, only South Korea's is only available
+    using the residential proxy type.
+
     Args:
         country_code (str): The ISO 3166-1 alpha-2 code of the country for which the proxy should be used.
 
